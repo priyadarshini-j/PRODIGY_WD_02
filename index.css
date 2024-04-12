@@ -1,0 +1,115 @@
+html {
+    width: 100%;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+    font-style: normal;
+  }
+
+  body {
+    margin: unset;
+    color: #fff;
+    background-color: #fcfcfc;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+
+  }
+  
+  input[type=text] {
+    position: relative;
+    padding: 15px 40px 15px 20px;
+    width: 300px;
+    color: #525252;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(to right, #FFFFFF 0%, #464747 #F9F9F9 100%);
+    transition: width 0.4s ease;
+    outline: none;
+  }
+  
+  i.fa.fa-search {
+    position: relative;
+    left: -37px;
+    color: #8233C5;
+    cursor: pointer;
+  }
+
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    
+}
+
+  div#temp-element {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 90px;
+    text-shadow: 4px 2px rgba(0,0,0,0.6)
+}
+
+.location-content #location-element {
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.temperature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 2px rgba(0,0,0,0.6)
+}
+
+div#temp-result-element {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+div#temp-range-element {
+    margin-top: 14px;
+}
+
+.location-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#date-element {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.main-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader {
+  width: 130px;
+  position: relative;
+  top: 130px;
+}

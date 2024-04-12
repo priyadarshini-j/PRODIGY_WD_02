@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weather</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/15b90733b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <div class="main-container" id="main-container">
+    <div class="container">
+      <input placeholder='Search for a City...' id="input-search" class='js-search' type="text">
+      <i onclick="getWeatherData()" class="fa fa-search"></i>
+    </div>
+    <img class="loader" id="loader-container" style="display: none;" src="assessts/loader.gif">
+    <div class="result-container" id="result-container">
+          <div class="location-content">
+              <div id="location-element"></div>
+              <div id="date-element"></div>
+          </div>
+          <div id="temp-element"></div>
+          <div class="temperature-content">
+              <div id="temp-result-element"></div>
+              <div id="temp-range-element"></div>
+          </div>
+    </div>
+  </div>
+</body>
+
+</html>
